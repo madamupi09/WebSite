@@ -103,6 +103,10 @@ section {
     width: 100%;
 }
 
+.ancho {
+    max-width: 100%;
+}
+
 @media (max-width:1000px) {
     #ocultar {
         display: none;
