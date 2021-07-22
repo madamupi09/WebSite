@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+}
+
+.headerr {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: 16;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1.madamupi {
+    font-size: 3.5rem;
+    color: #007bff;
+}
+
+h1 span {
+    font-size: 1rem;
+    color: #343a40;
+}
+
+.ola {
+    height: 750px;
+}
+
+.redondeado {
+    border-radius: 20px
+}
+
+.herramientas {
+    background-color: #343a40;
+    padding: 3% 10%;
+    color: #fff;
+}
+
+.portafolio {
+    padding: 6%;
+    background-color: #343a40;
+}
+
+.portafolio h2 {
+    color: #fff;
+}
+
+.tituloo {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.inicio {
+    background-color: aquamarine;
+    width: 100%;
+    height: 857px;
+}
+
+#Estudios {
+    margin-top: 30px;
+}
+
+.negro {
+    color: #000;
+    z-index: 0;
+    color: rgb(rgb(0, 0, 0), green, blue);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+
+.carousel-indicators {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.imagenMi {
+    margin-top: 3%;
+    background-color: #f8f9fa;
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width:1000px) {
+    #ocultar {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    #imagenpequeña {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:1200px) {
+    #imagenpequeña {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+}
