@@ -6,6 +6,7 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
+    max-width: 100%;
     background-color: aquamarine;
     z-index: 16;
 }
