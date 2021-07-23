@@ -10,6 +10,11 @@ body {
     z-index: 16;
 }
 
+.contacto {
+    background-color: aquamarine;
+    text-align: center;
+}
+
 .titulo {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -31,7 +36,9 @@ h1 span {
 }
 
 .ola {
-    height: 750px;
+    min-height: 1000px;
+    height: 1000px;
+    max-height: 1000px;
 }
 
 .redondeado {
