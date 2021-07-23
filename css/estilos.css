@@ -4,9 +4,8 @@ body {
 }
 
 .headerr {
-    position: sticky;
+    position: fixed;
     width: 100%;
-    max-width: 100%;
     background-color: aquamarine;
     z-index: 16;
 }
