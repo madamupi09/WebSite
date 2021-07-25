@@ -1,3 +1,13 @@
+:root{
+--colorPrincipal: #343a40;
+--colorSecundario: #fff;
+--colorMenu: #7FFFD4;
+--colorTextoBlanco:rgb(255, 255, 255);
+--colorTextoNegro:#343a40;
+--colorTextoAzulClaro: #007bff;
+
+
+}
 body {
   margin: 0%;
   padding: 0%;
@@ -6,12 +16,12 @@ body {
 .headerr {
   position: fixed;
   width: 100%;
-  background-color: aquamarine;
+  background-color: var(--colorMenu);
   z-index: 16;
 }
 
 .contacto {
-  background-color: aquamarine;
+  background-color: var(--colorMenu);
   text-align: center;
 }
 
@@ -27,12 +37,12 @@ h1 {
 
 h1.madamupi {
   font-size: 3.5rem;
-  color: #007bff;
+  color:var(--colorTextoAzulClaro);
 }
 
 h1 span {
   font-size: 1rem;
-  color: #343a40;
+  color: var(--colorTextoNegro);
 }
 
 .ola {
@@ -45,19 +55,19 @@ h1 span {
 }
 
 .herramientas {
-  background-color: #343a40;
+  background-color:var(--colorPrincipal);
   padding: 3% 10%;
   margin: 0;
   margin-bottom: 0;
-  color: #fff;
+  color:var(--colorTextoBlanco);;
 }
 
 .portafolio {
-  background-color: #343a40;
+  background-color:var(--colorPrincipal);
 }
 
 .portafolio--titulo {
-  color: #fff;
+  color: var(--colorTextoBlanco);;
   padding: 5rem 0rem 1rem 0rem;
 }
 .portafolio__cajas {
@@ -82,7 +92,7 @@ h1 span {
 }
 
 .portafolio__cajas--caja {
-  background-color: #fff;
+  background-color: var(--colorSecundario);;
   margin: 2rem;
   padding: 0 2rem;
   border-radius: 10px;
@@ -114,9 +124,9 @@ h1 span {
 }
 
 .negro {
-  color: #000;
+  color: var(--colorTextoNegro);
   z-index: 0;
-  color: rgb(rgb(0, 0, 0), green, blue);
+  color: var(--colorTextoNegro);
 }
 
 .carousel-control-prev-icon {
@@ -141,7 +151,7 @@ h1 span {
 
 .imagenMi {
   margin-top: 3%;
-  background-color: #f8f9fa;
+  background-color: var(--colorSecundario);
   width: 400px;
   height: 400px;
 }
