@@ -78,6 +78,11 @@ h1 span {
   padding-bottom: 2rem;
   
 }
+.Resaltado{
+  background-color: gold;
+  padding: 0%;
+  margin: 0;
+}
 @media (min-width: 748px) {
   .portafolio__cajas {
     grid-template-columns: repeat(2, 1fr);
@@ -93,6 +98,12 @@ h1 span {
 
 .portafolio__cajas--caja {
   background-color: var(--colorSecundario);;
+  margin: 2rem;
+  padding: 0 2rem;
+  border-radius: 10px;
+}
+.portafolio__cajas--caja--resaltado {
+  background-color:rgb(241, 225, 136);
   margin: 2rem;
   padding: 0 2rem;
   border-radius: 10px;
@@ -168,6 +179,11 @@ section {
 
 .fondo {
   background-image: url(../img/fondo.jpg);
+}
+.realizado{
+  display: inline;
+  font-size:small;
+  font-weight: bold;
 }
 
 @media (max-width: 1000px) {
